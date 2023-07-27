@@ -1,0 +1,36 @@
+# Palindrome or Reverse Function README
+
+## Description
+
+The `check_palindrome_or_reverse()` function is a Python script that checks whether a given word is a palindrome or not. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).
+
+If the word is a palindrome, the function will print "Yes, it is a palindrome." Otherwise, it will print "No, it is not a palindrome." along with the reversed version of the word.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x must be installed on your machine. You can download it from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+### Running the Function
+
+1. Open a terminal or command prompt.
+
+2. Navigate to the directory where the `check_palindrome_or_reverse()` function is located.
+
+3. Run the script by executing the following command:
+
+python palindrom.py
+
+4. The function will prompt you to enter a word. Type the word and press Enter.
+
+5. The function will then determine whether the word is a palindrome or not and display the result accordingly.
+
+## Example
+
+The function will prompt you to enter a word. For example, you enter "radar" and press Enter.
+
+The function will then display the following output:
+
+In this case, "radar" is a palindrome because it reads the same forwards and backwards.
+

@@ -1,0 +1,13 @@
+##Function Description
+
+The myDigitalClock function takes no input parameters and is designed to be a standalone clock that continuously displays the current time.
+
+Function Logic
+The function retrieves the current time using the Date object in JavaScript.
+It extracts the hours, minutes, and seconds from the current time.
+If the hour is greater than 12, it converts the hour to the 12-hour format and sets the zone to "PM."
+If the hour is exactly 12, it keeps the hour as is and sets the zone to "PM."
+If the hour is less than 10, it adds a leading zero to the hour to ensure a two-digit format.
+If the minutes or seconds are less than 10, it adds a leading zero to each to ensure a two-digit format.
+The function creates a time string in the format "hh:mm:ss AM/PM" and logs it to the console.
+The function sets a timeout of 1000 milliseconds (1 second) to call itself again after each second, ensuring the clock updates continuously.
